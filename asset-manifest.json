@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/coin-search-react.js/static/css/main.a53db964.css",
+    "main.js": "/coin-search-react.js/static/js/main.d2e29ecc.js",
+    "static/js/787.284a3ba0.chunk.js": "/coin-search-react.js/static/js/787.284a3ba0.chunk.js",
+    "index.html": "/coin-search-react.js/index.html",
+    "main.a53db964.css.map": "/coin-search-react.js/static/css/main.a53db964.css.map",
+    "main.d2e29ecc.js.map": "/coin-search-react.js/static/js/main.d2e29ecc.js.map",
+    "787.284a3ba0.chunk.js.map": "/coin-search-react.js/static/js/787.284a3ba0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a53db964.css",
+    "static/js/main.d2e29ecc.js"
+  ]
+}
