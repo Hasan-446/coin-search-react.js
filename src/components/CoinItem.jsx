@@ -5,7 +5,7 @@ const CoinItem = (props) => {
 
   const navigate= useNavigate();
   const handleRowClick =()=>{
-    navigate(`/coin-search-react.js/coin/${props.coins.id}` )
+    navigate(`/coin/${props.coins.id}` )
   }
 
   const rateIdentify=(obj)=>{
