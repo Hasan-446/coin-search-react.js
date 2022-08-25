@@ -24,8 +24,8 @@ function App() {
     <div>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Coins coins={coinsData} />} />
-        <Route path='/coin' element={<Coin/>}>
+        <Route path='/coin-search-react.js' element={<Coins coins={coinsData} />} />
+        <Route path='/coin-search-react.js/coin' element={<Coin/>}>
         <Route path=':coinId' element={<Coin/>} />
         </Route>
       </Routes>
