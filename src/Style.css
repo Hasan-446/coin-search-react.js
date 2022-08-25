@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #26272b;
+  color: #f4f4f4;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: 	#FF7F50;
+}
+.orange{
+  color: 	#FF7F50;
+}
+.table{
+  border-collapse: collapse;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  max-width: 1140px;
+  margin:auto;
+}
+.coin-image{
+  height: 40px;
+  margin-right: 10px;
+}
+tr{
+  background-color: #26272b;
+  box-shadow: 0px 0px 12px #18191b;
+}
+td{
+  text-align: center;
+  padding:1rem;
+}
+th{
+  padding:2rem;
+}
+
+.image-symbol{
+  display: flex;
+  align-items: center;
+}
+.coin-name , .rank{
+  text-align:left;
+  padding: 1rem;
+}
+
+tr:hover{
+  transform: scale(1.04);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.green{
+  color: #5BB318;
+}
+.red{
+  color: #FF4A4A;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+@media screen and (max-width: 710px){ 
+    .hide-mobile{
+        display: none;   
+}
+}
+
+@media screen and (max-width: 420px){ 
+ .coin-image{
+   height: 20px;
+ }
+ .coin-name-in-list, .rank, .day-price, .week-price, .current-price, .coin-name {
+   font-size: .6rem;
+ }
+
+ 
+}
+
+
+
+
