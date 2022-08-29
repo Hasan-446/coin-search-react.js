@@ -1,4 +1,5 @@
 import React from 'react';
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 import ReactDOM from 'react-dom/client';
 import './Style.css';
 import App from './App';

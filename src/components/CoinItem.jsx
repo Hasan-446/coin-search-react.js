@@ -26,7 +26,7 @@ const CoinItem = (props) => {
         {rateIdentify(props.coins.price_change_percentage_24h)}
       </td>
       <td className="week-price">
-        {rateIdentify(props.coins.price_change_percentage_7d_in_currency)}
+        {props.coins.price_change_percentage_7d_in_currency ? rateIdentify(props.coins.price_change_percentage_7d_in_currency) : null}
       </td>
       <td className="hide-mobile">
         ${props.coins.total_volume.toLocaleString()}
