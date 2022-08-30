@@ -107,7 +107,7 @@
         display: none;
     }
 }
-@media screen and (max-width: 380px){
+@media screen and (max-width: 420px){
     .coin-symbol{
         display: none;
     }
