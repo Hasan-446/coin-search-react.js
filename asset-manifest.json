@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/coin-search-react.js/static/css/main.e62dd2af.css",
+    "main.css": "/coin-search-react.js/static/css/main.19501a22.css",
     "main.js": "/coin-search-react.js/static/js/main.eba06c15.js",
     "static/js/787.284a3ba0.chunk.js": "/coin-search-react.js/static/js/787.284a3ba0.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/coin-search-react.js/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -9,12 +9,12 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/coin-search-react.js/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/coin-search-react.js/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/coin-search-react.js/index.html",
-    "main.e62dd2af.css.map": "/coin-search-react.js/static/css/main.e62dd2af.css.map",
+    "main.19501a22.css.map": "/coin-search-react.js/static/css/main.19501a22.css.map",
     "main.eba06c15.js.map": "/coin-search-react.js/static/js/main.eba06c15.js.map",
     "787.284a3ba0.chunk.js.map": "/coin-search-react.js/static/js/787.284a3ba0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e62dd2af.css",
+    "static/css/main.19501a22.css",
     "static/js/main.eba06c15.js"
   ]
 }
