@@ -101,6 +101,29 @@ body {
   border-bottom:1px solid rgba(255,255,255,.5);
   transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
 }
+
+.load-more{
+  width: 200px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: #FF7F50;
+  transition: .3s;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.load-more:hover {
+  color: #FF7F50;
+  background-color: #26272b;
+  border: 1px solid #FF7F50;
+  text-decoration: none;
+}
 /* .......................search style........................ */
 
 

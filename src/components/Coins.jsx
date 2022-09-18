@@ -1,18 +1,44 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 import CoinItem from "./CoinItem";
 import { FaSearch } from "react-icons/fa";
 
-const Coins = (props) => {
+const Coins = () => {
   const [search, setSearch] = useState("");
+  const [coinsData, setCoinsData] = useState([]);
+  const [page,setPage]= useState(1)
+
+  useEffect(() => {
+    console.log("uu");
+    fetchData(page)   
+  }, [page]);
+
+  const fetchData= async(pageNum)=>{
+    axios
+      .get(
+        `https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=20&page=${pageNum}&sparkline=false&price_change_percentage=1h%2C24h%2C7d`
+      )
+      .then((response) => {
+        setCoinsData((prevstate) => [...prevstate, ...response.data]);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }
 
   const handlechange = (e) => {
     setSearch(e.target.value);
   };
 
-  const filterCoins = props.coins.filter((coin) =>
-    coin.name.toLowerCase().includes(search.toLowerCase())
-  );
+  const loadMore = () => {
+    setPage((prevstate)=> prevstate+1);
+  }
 
+  const filterCoins = coinsData.filter((coin) =>
+  coin.name.toLowerCase().includes(search.toLowerCase())
+);
+
+  console.log(coinsData)
   return (
     <div className="container">
       <form action="">
@@ -46,6 +72,12 @@ const Coins = (props) => {
           })}
         </tbody>
       </table>
+      <button
+        className="load-more"
+        onClick={loadMore}
+      >
+        Load More
+      </button>
     </div>
   );
 };

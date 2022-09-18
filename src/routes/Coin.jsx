@@ -21,7 +21,6 @@ const Coin = () => {
       .get(url)
       .then((response) => {
         setCoinInfo(response.data);
-        console.log(response.data);
       })
       .catch((error) => {
         console.log(error);
