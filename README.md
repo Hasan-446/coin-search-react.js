@@ -7,6 +7,7 @@ It is a crypto tracker application build with React.js .By using the public api 
 <li>Dynamic functionality (like Load more to load coins)</li>
 <li>React Routing</li>
 <li>Reusable Component</li>
+<li>Dynamic Search functionality</li>
 <li>Fully Responsive</li>
 </ul>
 To see Live Demo <a href="https://coin-search-446.netlify.app/"> click here </a>
