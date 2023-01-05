@@ -1,5 +1,5 @@
 # coin-search-react.js
-It is a crypto tracker application build with React.js .By using the public api of Coin Gecko we are fetching data and then visualize them. Also we try to ensure responsiveness. we have used react routing to show dynamically coin detail info and load next pages. And also dynamic Search functionality.
+It is a crypto tracker application build with React.js .By using the public api of Coin Gecko we are fetching data and then visualize them. Also we try to ensure responsiveness. we have used react routing to show dynamically coin detail info and load next pages, And also dynamic Search functionality.
 ## Key Feature
 <ul>
 <li>Highly scalable</li>
